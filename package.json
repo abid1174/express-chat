@@ -1,0 +1,22 @@
+{
+  "name": "express-chat",
+  "version": "1.0.0",
+  "description": "A chat application build with express and socket.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abid413119/express-chat.git"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "abid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abid413119/express-chat/issues"
+  },
+  "homepage": "https://github.com/abid413119/express-chat#readme"
+}
