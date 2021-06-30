@@ -1,10 +1,4 @@
 // render login page
-function renderLoginPage(req, res, next) {
-  res.render("index", {
-    title: "Login - Express Chat",
-  });
+export function renderLoginPage(req, res, next) {
+  res.render("index");
 }
-
-module.exports = {
-  renderLoginPage,
-};

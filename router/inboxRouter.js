@@ -1,11 +1,11 @@
 // External Imports
 import { Router } from "express";
-import { renderLoginPage } from "../controller/loginController.js";
+import { getInbox } from "../controller/inboxController.js";
 import { decorateHtmlResponse } from "../middlewares/common/decorateHtmlResponse.js";
 
 const router = Router();
 
 // Login route
-router.get("/", decorateHtmlResponse("Login"), renderLoginPage);
+router.get("/", decorateHtmlResponse("Inbox"), getInbox);
 
 export default router;
